@@ -13,15 +13,16 @@
             width: 10px;
             height: 10px;
             position: absolute;
-            top: 50vh;
-            left: 50vh;
+            top: 50%;
+            left: 50%;
             background-color: black;
             animation: objanimation 5s infinite;
+            animation-direction: alternate;
         }
         @keyframes objanimation{
-            0% {background-color: black; left: 50vh; width:10px;}
-            10% {background-color: #231f1f; left: 40vh; width: 10vh};
-            100% {background-color: black; left: 0px; width:100vh};
+            0% {background-color: black; left: 50%; width:10px;}
+            10% {background-color: #231f1f; left: 40%; width: 10%};
+            100% {background-color: black; left: 0%; width:100%};
         }
     </style>
     <title>Document</title>
